@@ -29,5 +29,5 @@ jobs:
 
       - name: End-to-end integration test
         run: |
-          cd samples/CatApiClient.Sample
+          cd src/CatApiClient.Sample
           dotnet run --configuration Release
